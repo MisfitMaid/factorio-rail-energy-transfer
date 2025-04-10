@@ -1,22 +1,18 @@
 -- adapted from https://github.com/dmikalova/factorio-mods/blob/main/utility-station-mk2/control.lua [MIT]
 
-local entities_rails = { --unused, keeping here because lazy and might implement in the future
-    ["legacy-straight-rail"] = true,
-    ["legacy-curved-rail"] = true,
-    ["straight-rail"] = true,
-    ["curved-rail-a"] = true,
-    ["curved-rail-b"] = true,
-    ["half-diagonal-rail"] = true,
-    ["rail-ramp"] = true,
-    ["elevated-straight-rail"] = true,
-    ["elevated-curved-rail-a"] = true,
-    ["elevated-curved-rail-b"] = true,
-    ["elevated-half-diagonal-rail"] = true,
-    ["elevated-straight-rail"] = true,
-    ["elevated-curved-rail-a"] = true,
-    ["elevated-curved-rail-b"] = true,
-    ["elevated-half-diagonal-rail"] = true,
-}
+-- local entities_rails = { --unused, keeping here because lazy and might implement in the future
+--     ["legacy-straight-rail"] = true,
+--     ["legacy-curved-rail"] = true,
+--     ["straight-rail"] = true,
+--     ["curved-rail-a"] = true,
+--     ["curved-rail-b"] = true,
+--     ["half-diagonal-rail"] = true,
+--     ["rail-ramp"] = true,
+--     ["elevated-straight-rail"] = true,
+--     ["elevated-curved-rail-a"] = true,
+--     ["elevated-curved-rail-b"] = true,
+--     ["elevated-half-diagonal-rail"] = true,
+-- }
 
 local entities = {
     ["rail-support"] = true,
